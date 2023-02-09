@@ -1,0 +1,22 @@
+.dark-mode {
+    background: rgb(70, 59, 59);
+    color: white;
+    transition: ease-in-out
+}
+
+.animal-show-case img {
+    width: 100px;
+    cursor: pointer;
+    transition: ease-in-out
+}
+
+.smoothmove {
+    width: 200px;
+    transition: ease-in-out;
+}
+
+.border {
+    border-radius: 3px;
+    border-color: blue !important;
+    border-style: dashed;
+}

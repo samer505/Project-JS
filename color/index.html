@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Lec11</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <div class="container">
+    <form class="d-flex">
+      <div class="col">
+        <div class="mb-3">
+          <label for="red-input" class="form-label">Red Value</label>
+          <input min="0" max="255" type="number" id="red-input" class="form-control" placeholder="255"
+            aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Red Color</small>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="mb-3">
+          <label for="green-input" class="form-label">Green Value</label>
+          <input min="0" max="255" type="number" id="green-input" class="form-control" placeholder="255"
+            aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Green Color</small>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="mb-3">
+          <label for="blue-input" class="form-label">Blue Value</label>
+          <input min="0" max="255" type="number" id="blue-input" class="form-control" placeholder="255"
+            aria-describedby="helpId">
+          <small id="helpId" class="text-muted">Blue Color</small>
+        </div>
+      </div>
+    </form>
+
+    <div id="box" class="rounded p-5 m-5 w-100 border">The Color is:</div>
+    <button id="compbtn" class="btn-dark">compare</button>
+    <button id="savebtn" class="btn-dark">save</button>
+    <h4>Compared color:</h4>
+    <div id="compbox" class="rounded p-5 m-5 w-100 border">The Color is:</div>
+
+    <h4>Favorite Colors:</h4>
+    <div id="savebox" class="rounded p-5 m-5 w-100 d-flex flex-wrap"></div>
+
+
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>

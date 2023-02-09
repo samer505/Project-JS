@@ -1,0 +1,12 @@
+body {
+    background: #000 !important;
+}
+
+.imgspecs {
+    width: 100px;
+    height: 300px;
+}
+
+#Title {
+    color: beige;
+}
